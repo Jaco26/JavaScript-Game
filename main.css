@@ -1,0 +1,47 @@
+.btn{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(56, 93, 63);
+}
+
+.gameBoard {
+	background-color: rgb(180, 242, 187);
+	width: 480px;
+	height: 480px;
+}
+
+/*Color Classes for JS*/
+
+.clrRed {
+	background-color: fuchsia;
+}
+
+.clrBlue {
+	background-color: deepskyblue;
+}
+
+.clrPurple {
+	background-color: blueviolet;
+}
+
+.clrOrange {
+	background-color: darkorange;
+}
+
+.clrGreen {
+	background-color: hsl(90, 100%, 50%);
+}
+
+.clrYellow {
+	background-color: #ffff10;
+}
+
+.clrBrown {
+	background-color: #9a5422;
+}
+
+.clrBlack {
+	background-color: black;
+}
+
+
