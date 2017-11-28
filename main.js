@@ -1,10 +1,16 @@
 
 //randomly select an <input> element inside <form name="gameBoard">
-function randomSquare(){
+function randomSquare(one, two){
+	var selectedButtonArray = [];
+	for (i = 0; i < 2; i++){
 		var formLength = document.gameBoard.length;
 		var x = document.gameBoard.elements[Math.floor(Math.random()*formLength)];
+
+	}
 		return x.id;
 }
+
+
 
 //pops-up the returned value (x.id) from randomSquare() to make sure it's returning a random value
 function button(){
@@ -12,9 +18,19 @@ function button(){
 }
 
 
+//pops-up an alert 
 function randomTwo(){
-	for (i=0; i<2; i++){
-	alert(randomSquare());
+	for (i=0; i<3; i++){
+	   alert(randomSquare());
 	}
 }
 
+
+
+
+
+
+for (i = 0; i < 2; i++){
+		var formLength = document.gameBoard.length;
+		var x = document.gameBoard.elements[Math.floor(Math.random()*formLength)];
+	}
