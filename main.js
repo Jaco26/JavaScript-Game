@@ -12,3 +12,9 @@ function button(){
 }
 
 
+function randomTwo(){
+	for (i=0; i<2; i++){
+	alert(randomSquare());
+	}
+}
+
