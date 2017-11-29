@@ -8,9 +8,7 @@
 //In the code block, I 1: declared a variable "nOfInputs" equal to the number of elements inside the <form name"gameBoard">
 //  then 2: declared a variable random 
 
-
-
-var ranArray = new Array();
+var ranArray = [];
 
 function ranButton(){
 	for(i = 0; i < document.gameBoard.length; i++){
@@ -23,8 +21,5 @@ function ranButton(){
 
 
 
-
-var pair1 = ranArray[0];
-console.log(pair1);
 
 
